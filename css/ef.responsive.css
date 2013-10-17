@@ -1,0 +1,4 @@
+@media (max-width:978px) {
+	.page 							{width: auto;margin:0;}
+	img 							{max-width: 100%; height: auto; width: 100%;}
+}

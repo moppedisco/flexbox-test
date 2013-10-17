@@ -1,0 +1,35 @@
+
+
+body.rtl							{ direction: rtl; font-size: 16px; }
+
+.rtl ul,
+.rtl ol								{ padding: 0 25px 0 0; }
+
+.rtl .floatLeft 					{ float: right; }
+.rtl .floatRight 					{ float: left; }
+
+.rtl .unit 							{ float: right; }
+.rtl .unit.size1of1					{ float: none; }
+
+.rtl .media .img 					{ float: right; margin-right: 0; margin-left: 20px; }
+.rtl .media .imgRight 				{ float: left; margin-right: 20px; margin-left: 0px; }
+
+.rtl .icon-image 					{ margin: 0 0 0 5px; }
+
+.rtl blockquote 					{ padding: 0 15px 0 0; border-right: 5px solid #EEE; border-left: none; float: right; }
+
+.rtl blockquote.pull-right			{ float: none; padding-right: 0; padding-left: 15px; border-right: 0; border-left: 5px solid #EEE; }
+
+/* FORM STYLES */
+.rtl form input[type="text"].inline,
+.rtl form input[type="email"].inline,
+.rtl form input[type="url"].inline, 
+.rtl form input[type="number"].inline
+.rtl form select				{ margin: 0 0 0 18px; }
+.rtl form label.inline 			{ margin: 0 0 0 18px; }
+
+.rtl .radio, 
+.rtl .checkbox 					{  padding-left: 0; padding-right: 18px;  }
+
+.rtl .radio input[type="radio"], 
+.rtl .checkbox input[type="checkbox"]{ float: right; margin-left: 0; margin-right: -18px; }

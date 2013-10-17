@@ -1,0 +1,26 @@
+/*
+CSS Name:		CSS page template. 
+Description:	This template can help you build pages which have a header, footer, left and right columns, and a main content area.
+Notes:			This is a EF version of the original CSS file. 
+URL:			http://oocss.org/template.html
+Author:			Yacine Belarbi
+Last updated:	2012-04-11
+*/
+
+/* ------- DO NOT MODIFY THIS FILE, INSTEAD OVERRIDE PROPERTYS IN YOUR PAGE SPECIFIC STYLESHEET OR CREATE YOUR OWN CSS FILE ------- */
+
+/* = PAGE TEMPLATE
+---------------------------------------------------*/
+
+body{_text-align:center;}/* IE5.5 */
+.main{display:table-cell;*display:block;width:auto;}
+.body,.main{*zoom:1;}
+.body:after,.main:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.page{margin:0 auto;width:978px;_text-align:left;} /* wraps other template elems to set width */ /* text-align IE5.5 */
+.gs960{width:960px;}
+.main{*width:728px;}
+.liquid{width:auto;margin:0;}
+
+/* ====== Columns ====== */
+.leftCol{float:left;width:250px;_margin-right:-3px;}
+.rightCol{float:right;width:300px;_margin-left:-3px;}

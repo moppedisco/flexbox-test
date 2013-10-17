@@ -1,0 +1,21 @@
+/*
+CSS Name:		CSS media module. 
+Description:	Use any sized image or flash for the right or left area. Any content in the body including nesting other media blocks.
+Notes:			This is a EF version of the original CSS normalize. 
+URL:			http://oocss.org/
+Author:			Yacine Belarbi
+Created:		2012-04-11
+*/
+
+/* ------- DO NOT MODIFY THIS FILE, INSTEAD OVERRIDE PROPERTYS IN YOUR PAGE SPECIFIC STYLESHEET OR CREATE YOUR OWN CSS FILE ------- */
+
+
+.media:after, .bd:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.media .bd{display:table-cell; zoom:1;}
+.media .bd > :first-child{margin-top:0;}
+.media .bd > :last-child{margin-bottom:0;}
+.media .img{float:left;margin-right:20px;}
+.media .img img{display:block;}
+.media .imgRight{float:right; margin-left:20px;}
+a.media{display:block;}
+.media .icon-image.img { margin: 0 5px 0 0; }

@@ -1,0 +1,121 @@
+/*
+CSS Name:		CSS form 
+Description:	form
+Author:			Yacine Belarbi
+Created:		2012-04-11
+*/
+
+/* ------- DO NOT MODIFY THIS FILE, INSTEAD OVERRIDE PROPERTYS IN YOUR PAGE SPECIFIC STYLESHEET OR CREATE YOUR OWN CSS FILE ------- */
+
+
+form fieldset					{ margin: 10px 0; }  
+
+form legend,
+form label						{ font-size: 93%; font-weight: bold; display: block; padding-top: 3px; }
+
+form input[type="text"],
+form input[type="email"],
+form input[type="url"], 
+form input[type="number"],
+form textarea { 
+								width: 100%; 
+								padding: 4px; 
+								border: 1px solid #ddd; 
+
+								-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+								-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+								box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+								-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+								-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+								-ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+								-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+								transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+		form input:focus, 
+		form textarea:focus {
+								border-color: rgba(82, 168, 236, 0.8);
+								-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+								-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+								box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+								outline: 0;
+								outline: thin dotted 9;
+		}
+
+
+form input[type="checkbox"], 
+form input[type="radio"] {
+								width: auto;
+								height: auto;
+								padding: 0;
+								margin: 3px 0;
+								line-height: normal;
+								cursor: pointer;
+								background-color: transparent;
+								border: 0 9;
+								-webkit-border-radius: 0;
+								-moz-border-radius: 0;
+								border-radius: 0;
+}
+
+		form input[type="radio"]:focus, 
+		form input[type="checkbox"]:focus, 
+		form select:focus {
+								outline: thin dotted #333;
+								outline: 5px auto -webkit-focus-ring-color;
+								outline-offset: -2px;
+								-webkit-box-shadow: none;
+								-moz-box-shadow: none;
+								box-shadow: none;
+		}
+
+		.radio, 
+		.checkbox 				{ min-height: 22px; padding-left: 18px; font-weight: normal; }
+
+		.radio span, 
+		.checkbox span 			{ line-height: 22px; }		
+
+		.radio input[type="radio"], 
+		.checkbox input[type="checkbox"]{ 
+								float: left; 
+								margin-left: -18px; 
+		}
+
+form select 					{ padding: 4px; border: 1px solid #ddd; height: 26px; display: block; }
+form select.fullwidth			{ width: 100%; }
+
+form button						{ font-weight: bold; margin: 10px 0; }
+
+/* Disabled input fields */
+form input[disabled], 
+form select[disabled], 
+form textarea[disabled], 
+form input[readonly], 
+form select[readonly], 
+form textarea[readonly] {
+								cursor: not-allowed;
+								background-color: #EEE;
+								border-color: #DDD;
+}
+
+/* Inline input fields */
+form input[type="text"].inline,
+form input[type="email"].inline,
+form input[type="url"].inline, 
+form input[type="number"].inline,
+form textarea.inline,
+form select						{ width: auto; margin: 0 18px 0 0; }
+
+form select.inline 				{ display: inline; }
+
+form label.inline,
+form legend.inline 				{ display: inline-block; vertical-align: middle; margin: 0 18px 0 0; }
+
+form .required {color: #E27976;}
+
+/* Form error */
+form input[type="text"].error,
+form input[type="email"].error,
+form input[type="url"].error, 
+form input[type="number"].error,
+form textarea.error				{ background: #FEDBDB; border-color: #FDC4C4; box-shadow: none; moz-box-shadow: none; webkit-box-shadow: none; }
